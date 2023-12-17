@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDiemMonHoc.SuaDiem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9BEAF4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa điểm môn học"
+            android:textSize="46dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/edtsuaMaMon"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Điểm chuyên cần"
+            android:textSize="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+        <EditText
+            android:id="@+id/edtsuaTenMon"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Điểm giữa kì"
+            android:textSize="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+        <EditText
+            android:id="@+id/edtsuaSoTinChi"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Điểm cuối kì"
+            android:textSize="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="56dp"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnQL"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Quay lại"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4775EC"
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Lưu"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FD33E9"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
